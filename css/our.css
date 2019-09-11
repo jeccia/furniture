@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    width: 100%;
+}
+.bg{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: 15px;
+}
+.logo{
+    width: 13.4%;
+    height: 68px;
+    float: left;
+    margin-left: 5%;
+}
+.logo img{
+    vertical-align: middle;
+}
+nav{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+nav ul{
+    width: 85%;
+    margin: 0 15%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #138b8b;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    margin:0 15px;
+    cursor: pointer;
+
+}
+nav ul li:hover{
+    color: #138b8b;
+    border-bottom: 2px solid #138b8b;
+}
+.header_right{
+    width: 10%;
+    float: right;
+    padding-right: 60px;
+}
+.header_right img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+#service{
+    width: 100%;
+    height: 127px;
+    line-height: 20px;
+    position: absolute;
+    top: 680px;
+}
+.ser_table{
+    width: 70%;
+    margin-left: 26%;
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+}
+.ser_class{
+    font-size: 14px;
+    color: #333333;
+    height: 50px;
+}
+.ser_table tr td{
+    margin: 0 10px;
+}
+#text{
+    text-align: center;
+    width: 100%;
+}
+.our_text{
+    width: 40%;
+    height: 100px;
+    line-height: 80px;
+    position: absolute;
+    top: 450px;
+    right: 30%;
+}
+.contact_eng{
+    font-size: 48px;
+    font-family: "MicrosoftYaHei-Bold";
+    text-transform: uppercase;
+    color: #333333;
+}
+.contact_china{
+    font-size: 30px;
+    font-family: "MicrosoftYaHei-Bold";
+    color: #333333;
+}
+.border_top{
+    width: 8%;
+    border-top: 5px solid black;
+    margin: auto;
+}

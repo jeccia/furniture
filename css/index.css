@@ -1,0 +1,138 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+#top{
+    width: 100%;
+}
+.bg{
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: 15px;
+}
+.logo{
+    width: 13.4%;
+    height: 68px;
+    float: left;
+    margin-left: 5%;
+}
+.logo img{
+    vertical-align: middle;
+}
+nav{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+nav ul{
+    width: 85%;
+    margin: 0 15%;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+    margin:0 15px;
+    cursor: pointer;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+
+    color: #138b8b;
+}
+nav ul li:hover{
+    color: #138b8b;
+    border-bottom: 2px solid #138b8b;
+}
+.header_right{
+    width: 10%;
+    float: right;
+    padding-right: 60px;
+}
+.header_right img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+#picture{
+    width: 100%;
+    margin-top: 119px;
+}
+.pic_table{
+    width: 62.5%;
+    margin: auto;
+    color: #333333;
+    font-size: 14px;
+}
+.pic_table h3{
+    font-size: 30px;
+}
+#picture img{
+    width: 100%;
+}
+.block{
+    font-size: 12px;
+    border: 1px solid black;
+    text-align: center;
+    width: 160px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+}
+#furniture{
+    width: 100%;
+    margin: 95px auto;
+}
+
+.furniture_table{
+    width: 62%;
+    margin: auto;
+    color: #333333;
+    font-size: 16px;
+}
+.furniture_table img{
+    width: 99%;
+}
+.furniture_table tr td{
+    margin: 0 10px;
+    text-align: center;
+}
+.fix{
+    position: fixed;
+    right: 10%;
+    bottom: 200px;
+    cursor: pointer;
+}
+#service{
+    width: 100%;
+    margin: 70px auto;
+}
+.ser_table{
+    width: 62%;
+    margin: auto;
+    color: #333333;
+    font-size: 12px;
+}
+.ser_table tr td{
+    margin: 0 10px;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    height: 136px;
+}
+.footer_text{
+    font-size: 10px;
+    text-align: center;
+    line-height: 35px;
+    padding-top: 10px;
+}
